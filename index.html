@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Title</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9w6o5K00o572F65u5Cb+WX5866/5s5vUgog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <h1>Recipe Sharing Platform</h1>
+    <img src="recipe pic.jpeg"alt="Website Logo" width="100" height"100" style="float: right;">
+      <div class="container">
+        <nav>
+          <ul class="nav-list">
+            <li><button>Home</button></li>
+            <li><button>Recipes</button></li>
+            <li><button>Contact</button></li>
+            <li><button>About Us</button></li>
+<head>
+    <form action="#"class="search-box">
+      <input type="text" placeholder="Search Recipe">
+      <button type="submit">Search</button>
+    </form>
+  </nav>
+
+      </div>
+</body>
+<body>
+
+
+</html>
+  </header>
+  <main>
+    <div class="Hero">
+      <div class="content">
+        <h4>"Share, Cook, Connect: The Recipe Community for Everyone"</h4>
+        <div class="button">Start Cooking</div>
+        
+    </div>
+    <style>
+      /* Add some basic styles for the slideshow container and images */
+      #slideshow {
+        margin: 0 auto;
+        width: 600px;
+        height: 400px;
+        overflow: hidden;
+      }
+  
+      #slideshow img {
+        width: 100%;
+        height: 100%;
+        display: none;
+      }
+  
+      #slideshow img:first-child {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="slideshow">
+      <img src="s1.jpg" alt="Image 1">
+      <img src="S2.jpg" alt="Image 2">
+      <img src="s3.jpeg" alt="Image 3">
+
+    </div>
+  
+    <script>
+      const imageEls = document.querySelectorAll('#slideshow img');
+      let slideIndex = 0;
+  
+      function showSlides() {
+        for (let i = 0; i < imageEls.length; i++) {
+          imageEls[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > imageEls.length) { slideIndex = 1 }
+        imageEls[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change time here to adjust transition speed (in milliseconds)
+      }
+  
+      showSlides();
+    </script>
+    <body>
+    </head>
+    <header4>
+      <h4>Create a Post</header4>
+    <form id="post-form">
+      <label for="post-title">Title:</label>
+      <input type="text" id="post-title" name="title" required><br>
+      <label for="post-content">Content:</label>
+      <textarea id="post-content" name="content" required></textarea><br>
+      <button type="submit">Submit Post</button>
+    </form>
+    
+    <script>
+      // This is a basic example using JavaScript to display the post on the same page (without server-side interaction)
+      const form = document.getElementById('post-form');
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission behavior
+        const title = document.getElementById('post-title').value;
+        const content = document.getElementById('post-content').value;
+        const post = `<h2>${title}</h2><p>${content}</p>`;
+        document.getElementById('post-container').innerHTML = post; // Display the post in a designated area
+        form.reset(); // Clear the form after submission
+      });
+    </script>
+    
+    <div id="post-container"></div>
+    
+    </header4>
+    
+    
+    <h2>Butter Chicken Biryani</h2>
+      <img src="Butter-Chicken-Biryani-1024x768-1.jpg" width="200" height="150" alt="Recipe Image">
+      <h3>Ingredients</h3>
+    <details><ul>
+      <li>**Chicken:**</li>
+        <ul>
+          <li>750 grams Tandoori chicken, cut into pieces on bone and half-cooked</li>
+        </ul>
+      <li>**Rice:**</li>
+        <ul>
+          <li>3 cups Cooked rice</li>
+        </ul>
+      <li>**For the Gravy:**</li>
+        <ul>
+          <li>2-3 tablespoons Oil</li>
+          <li>¼ cup Butter</li>
+          <li>2-3 Green chillies, slit</li>
+          <li>1 inch Ginger, cut into strips</li>
+          <li>1 Mace blade</li>
+          <li>3-4 Green cardamoms</li>
+          <li>3-4 medium Onions, chopped</li>
+          <li>1 tablespoon Ginger-garlic paste</li>
+          <li>3 cups Tomato puree</li>
+          <li>1½ teaspoons Garam masala powder</li>
+          <li>½ teaspoon Dried fenugreek leaves (kasoori methi)</li>
+          <li>Salt to taste</li>
+        </ul>
+      <li>**For Garnishing (Optional):**</li>
+        <ul>
+          <li>2 tablespoons Fresh cream</li>
+          <li>1 tablespoon Honey</li>
+          <li>2 tablespoons Fresh coriander leaves, chopped</li>
+          <li>8-9 Fresh mint leaves</li>
+          <li>1 cup Browned Onions</li>
+        </ul>
+    </ul>
+    
+          </ul>
+        </details>
+    
+    <h3>Instructions</h3>
+   <details>
+    <ol>
+      <ol>
+        <li>In a large pan, heat oil and butter over medium heat. Add green chilies, ginger, mace blade, and cardamoms. Sauté for a minute until fragrant.</li>
+        <li>Add chopped onions and cook until softened and translucent, about 5-7 minutes.</li>
+        <li>Add ginger-garlic paste and cook for another minute, stirring constantly.</li>
+        <li>Pour in the tomato puree and cook until the oil separates from the masala paste, around 5-7 minutes. Stir occasionally to prevent burning.</li>
+        <li>Add garam masala powder, kasoori methi, and salt to taste. Mix well and cook for another minute.</li>
+        <li>Add the cooked tandoori chicken pieces and gently combine with the masala.</li>
+        <li>In a separate pot, layer half of the cooked rice followed by the prepared chicken gravy. Repeat with the remaining rice.</li>
+        <li>**Optional Ghee Method:** Drizzle some ghee over the top layer of rice. (Ghee adds a richer flavor but is not mandatory)</li>
+        <li>Cover the pot tightly with a lid and seal the edges with dough made from wheat flour and water (optional but helps trap steam for even cooking). Alternatively, wrap the lid tightly with aluminum foil.</li>
+        <li>Cook on low heat for about 15-20 minutes, or until the rice is heated through.</li>
+        <li>**Optional Garnishing:**  While the biryani cooks, prepare the garnishing (if using). In a small pan, heat some cream and honey until slightly warmed. Stir in chopped coriander leaves and mint leaves.</li>
+        <li>Turn off the heat and let the biryani rest for another 5-10 minutes before serving.</li>
+        <li>Gently fluff the rice with a fork and spoon the biryani onto a serving dish. Drizzle with the prepared cream mixture (if using) and garnish with browned onions and fresh coriander sprigs.</li>
+        <li>Enjoy your delicious butter chicken biryani!</li>
+      </ol>
+      
+            </ol>
+   </details>
+    
+  </main>
+  <header2>
+    <div class="Recipe Item">
+
+      <h2>Tomato Dosa</h2>
+      <img src="tomato.jpeg" width="200" height="150" alt="Tiffin Dosa Image">
+      <h2>Ingredients</h2>
+      <details>
+<ul>
+  <li>**For the Dosa Batter:**</li>
+    <ul>
+      <li>2 cups Urad Dal (Whole Black Gram), rinsed and soaked for 4-6 hours</li>
+      <li>3 cups Parboiled Rice, rinsed and soaked for 4-6 hours</li>
+      <li>1 tsp Methi Dana (Fenugreek Seeds), rinsed and soaked for 30 minutes (optional)</li>
+      <li>Salt to taste</li>
+    </ul>
+  <li>**For the Tomato Filling:**</li>
+    <ul>
+      <li>2 tbsp Cooking Oil</li>
+      <li>1 tsp Mustard Seeds</li>
+      <li>1-2 Green Chillies, slit (adjust for spice preference)</li>
+      <li>2-3 Curry Leaves</li>
+      <li>1 medium Onion, finely chopped</li>
+      <li>2 large Tomatoes, finely chopped</li>
+      <li>½ tsp Turmeric Powder</li>
+      <li>½ tsp Red Chili Powder (adjust for spice preference)</li>
+      <li>½ tsp Coriander Powder</li>
+      <li>Salt to taste</li>
+      <li>Chopped fresh Coriander leaves, for garnish (optional)</li>
+    </ul>
+</ul>
+
+</details>
+<h3>Instructions</h3>
+<details><ol>
+  <li>**Preparing the Dosa Batter:**</li>
+    <ul>
+      <li>In a large bowl, combine the rinsed and soaked urad dal, parboiled rice, and fenugreek seeds (if using). Grind the mixture into a smooth batter using a blender or grinder. Add water as needed to achieve a pouring consistency (slightly thicker than pancake batter).</li>
+      <li>Add salt to taste and mix well. Cover the batter and let it ferment in a warm place for at least 8 hours, or until doubled in volume.</li>
+    </ul>
+  <li>**Making the Tomato Filling:**</li>
+    <ul>
+      <li>Heat oil in a pan over medium heat. Add mustard seeds and let them splutter.</li>
+      <li>Add green chilies, curry leaves, and chopped onions. Sauté until the onions become translucent.</li>
+      <li>Add the chopped tomatoes and cook until they soften and become mushy. Mash the tomatoes with a spatula if needed.</li>
+      <li>Add turmeric powder, red chili powder, coriander powder, and salt to taste. Mix well and cook for a minute, allowing the spices to release their aroma.</li>
+      <li>Turn off the heat and garnish with chopped coriander leaves (optional).</li>
+    </ul>
+  <li>**Cooking the Dosa:**</li>
+    <ul>
+      <li>Heat a flat griddle or tawa over medium heat. Once hot, grease it lightly with oil.</li>
+      <li>Pour a ladleful of batter onto the griddle and spread it into a thin circle using the back of the ladle. Drizzle a few drops of oil around the edges of the dosa.</li>
+      <li>Cook for a minute or two, until the bottom becomes slightly golden brown and the dosa loosens from the griddle.</li>
+      <li>Spread some prepared tomato filling onto the cooked dosa surface.</li>
+      <li>Fold the dosa in half, then fold it again into a triangle or desired shape.</li>
+      <li>Serve the tomato dosa hot with coconut chutney or sambar.</li>
+    </ul>
+</ol>
+</details>
+    </div>
+  </header2>
+  <header2>
+    <div class="snack-item flex-box3">
+        <h3>Masala Peanuts</h3>
+        <img src="masala.jpeg" width="200"height="150" alt="Masala Peanuts Image">
+      <h2>Ingredients</h2>
+      <details>
+        <ul>
+          <li>1 cup raw peanuts</li>
+          <li>2 tablespoons vegetable oil</li>
+          <li>1 pinch asafoetida (hing)</li>
+          <li>1 teaspoon cumin seeds</li>
+          <li>2 dry red chilies, broken into pieces</li>
+          <li>½ teaspoon turmeric powder</li>
+          <li>1 teaspoon red chili powder (adjust for spice preference)</li>
+          <li>½ teaspoon coriander powder</li>
+          <li>Salt to taste</li>
+          <li>Chopped curry leaves (optional)</li>
+          <li>Chopped fresh coriander leaves, for garnish (optional)</li>
+        </ul>
+      </details>
+      <h2>Instructions</h2>
+      <details>
+        <ol>
+          <li>Heat oil in a pan over medium heat. Add asafoetida and cumin seeds. Let the cumin seeds splutter for a few seconds.</li>
+          <li>Add dry red chilies and fry for a few seconds until fragrant.</li>
+          <li>Add turmeric powder, red chili powder, and coriander powder. Mix well and cook for about 30 seconds.</li>
+          <li>Add the raw peanuts and stir to coat them with the spices.</li>
+          <li>Reduce heat to low and roast the peanuts for 5-7 minutes, stirring occasionally, until they become crisp and golden brown.</li>
+          <li>Add salt to taste and mix well.</li>
+          <li>Turn off the heat and garnish with chopped curry leaves (if using) and fresh coriander leaves (if using).</li>
+          <li>Let the masala peanuts cool slightly before serving. Enjoy as a delicious and protein-rich snack!</li>
+        </ol>
+        
+      </details>
+
+
+    </div>
+    <div class="green-tea-container">
+      <h2>Green Tea</h2>
+      <img src="green-tea.jpg"width="200" height="150">
+      <details>
+        <h3>Ingredients</h3>
+        <ul class="green-tea-ingredients">
+          <li>1 green tea bag (or 1-2 teaspoons of loose leaf green tea)</li>
+          <li>230ml (8oz) hot water (ideally between 70-80°C / 158-176°F)</li>
+          <li>(Optional) Honey, lemon, or other desired sweetener</li>
+        </ul>
+      </details>
+      <details>
+        <h3>Instructions</h3>
+<ol class="instructions">
+  <li>Heat water to the desired temperature (ideally between 70-80°C / 158-176°F). Using water that is too hot can burn the tea leaves and result in a bitter taste.</li>
+  <li>Place the green tea bag (or loose leaf tea) in your cup or teapot.</li>
+  <li>Pour the hot water over the tea leaves.</li>
+  <li>(Optional) Steep the tea for 1-3 minutes, depending on your desired strength. Generally, steeping for a longer time will result in a stronger tea.</li>
+  <li>Remove the tea bag or strain the loose leaf tea.</li>
+  <li>(Optional) Add honey, lemon, or other desired sweetener to taste.</li>
+  <li>Enjoy your cup of green tea!</li>
+</ol>
+
+      </details>
+    </div>
+    
+    
+  </header2>
+  <header2>
+    </div>
+  
+</html>
+
+  </header>
+
+
+  <footer>
+    <p>&copy; 2024 Recipe Sharing</p>
+  </footer>
+</body>
+</html>
